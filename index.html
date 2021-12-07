@@ -4,20 +4,49 @@
     <title>Google</title>
   </head>
   <body>
-    <div class="nav">
-      <div class="right">
-        <a class="b1" href="#">Google정보</a> <a class="b1" href="#">스토어</a>
+    <header class="google-nav">
+      <div class="nav-right">
+        <a class="ginfo" href="#">Google정보</a>
+        <a class="b1" href="#">스토어</a>
       </div>
-      <div class="left">
+      <div class="nav-left">
         <a class="b1" href="#">Gmail</a><a class="b1" href="#">이미지</a>
-        <img class="leftimg" src="/box.PNG" alt="box" />
-        <img class="leftimg2" src="/id.png" alt="box" />
+        <a class="b2" href="#">
+          <img class="boxicon" src="./image/box.PNG" alt="box" />
+          <img class="idicon" src="./image/id.png" alt="box" />
+        </a>
       </div>
-    </div>
-    <div>
-      <div class="logo"><img src="/logo.gif" alt="google logo" /></div>
-      <div><input type="serch" /></div>
-      <div><button>Google 검색</button><button>I'm Feeling Lucky</button></div>
-    </div>
+    </header>
+    <section class="body">
+      <div class="logo"><img src="./image/logo.gif" alt="google logo" /></div>
+      <div class="searchbox">
+        <div class="dicon"><img src="./image/dicon.PNG" /></div>
+        <input class="search" type="search" />
+        <div class="keyicon"><img src="./image/keyicon.PNG" /></div>
+        <div class="micicon"><img src="./image/micicon.PNG" /></div>
+      </div>
+      <div class="bottom-div">
+        <input class="bottom-but" type="submit" value="Google 검색" /><input
+          class="bottom-but"
+          type="submit"
+          value="I'm Feeling Lucky"
+        />
+      </div>
+    </section>
+    <footer>
+      <div class="country">대한민국</div>
+      <div class="setting">
+        <div class="settingleft">
+          <a href="#" class="setting-a">광고</a>
+          <a href="#" class="setting-a">비즈니스</a>
+          <a href="#" class="setting-a">검색의 원리</a>
+        </div>
+        <div class="settingright">
+          <a href="#" class="setting-a">개인정보처리방침</a>
+          <a href="#" class="setting-a">약관</a>
+          <a href="#" class="setting-a">설정</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
